@@ -29,4 +29,4 @@ $ yarn install
 Before you start.
 
 > Author: Yusuf Sargın \
-> If you need help, you can reach me here yusufsargin@gmail.com
+> If you need help, you can reach me here yusufsargin9@gmail.com
