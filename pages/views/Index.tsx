@@ -1,6 +1,5 @@
 import * as React from "react";
 import { NextPage, NextPageContext } from "next";
-import Button from "antd/lib/button/button";
 
 interface Props {
   query: { name?: string };
