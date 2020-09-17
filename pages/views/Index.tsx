@@ -1,13 +1,18 @@
-import * as React from 'react';
-import { NextPage, NextPageContext } from 'next';
+import * as React from "react";
+import { NextPage, NextPageContext } from "next";
+import Button from "antd/lib/button/button";
 
 interface Props {
   query: { name?: string };
 }
 
 const Index: NextPage<Props> = ({ query }) => {
-  const greetName = query.name ? query.name : 'World';
-  return <div>Hello, {greetName}!</div>;
+  const greetName = query.name ? query.name : "World";
+  return (
+    <div>
+      Hello, {greetName}!
+    </div>
+  );
 };
 
 Index.getInitialProps = async (ctx: NextPageContext) => {
